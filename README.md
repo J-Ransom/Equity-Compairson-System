@@ -1,6 +1,3 @@
----
-title: "Equity Comparison Agent – Professional Quantitative Analysis Toolkit"
----
 
 # 📊 Equity Comparison Agent – Professional Quantitative Analysis Toolkit
 
