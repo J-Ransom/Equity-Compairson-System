@@ -37,6 +37,7 @@ flowchart TD
     EA -- Validated Data (Pydantic) --> CA[CompanyAnalysis Agent]
     CA -- Price Data --> TA[ChartAnalysis Agent]
     TA -- Charts, Stats --> CA
+    TA + CA --> CCA[ComparitiveAnalysis Agent]
 ```
 
 ## 🌟 Key Features
