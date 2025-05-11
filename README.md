@@ -237,20 +237,22 @@ Created by Jake Ransom, with LLM-powered extraction and analysis.
 ---
 
 ## Recommendation
-General Motors (GM) is favored due to its stronger margin profile, more disciplined capital structure, and a technical setup that signals emerging relative strength. While Ford (F) offers a higher dividend yield and slightly faster top-line growth, GM's superior profitability, lower valuation multiples, and improving technical momentum provide a more compelling risk/reward for investors seeking both value and operational resilience. Behavioral signals, including more constructive analyst sentiment and management guidance, further reinforce GM's edge at this juncture.
+General Motors (GM) is favored over Ford (F) due to its stronger margin profile, more disciplined capital allocation, and a technical setup that signals emerging relative strength. GM’s fundamentals are reinforced by improving analyst sentiment and a more constructive management tone, while its technicals show a nascent bullish momentum not yet mirrored by Ford. While Ford offers a higher yield, its weaker profitability and more volatile technicals tilt the risk/reward balance toward GM.
 
 
 ## Key Metrics Comparison
 | Metric            | General Motors (GM) | Ford (F) |
 |-------------------|-----------------|-----------------|
-| Revenue           | $....B           | $....B           |
-| Operating Income  | $....B           | $....B           |
-| EPS               | $....          | $....           |
-| Market Cap        | $....B            | $....B            |
+| Revenue           | $....B          | $....B          |
+| Operating Income  | $....B          | $....B          |
+| EPS               | $....           | $....           |
+| Market Cap        | $....B          | $....B          |
 ...
 
-## Comparative Analysis
-Both GM and Ford operate in the highly cyclical auto manufacturing sector, but GM distinguishes itself with a more robust margin structure and a notably lower leverage profile. GM's profitability metrics, including gross and operating margins, outpace Ford's, reflecting better cost control and operational efficiency. While Ford edges ahead in revenue growth, this comes at the expense of margin compression and a significantly higher debt-to-equity ratio, which could amplify risk in a downturn.....
+## Comparative Analysis "Fundamental and Behavioral"
+GM and Ford both operate in the highly competitive global auto manufacturing sector, but their recent financial trajectories diverge in key areas. GM leads in margin quality, with notably higher gross, EBITDA, and operating margins, reflecting stronger cost control and product mix. Ford, while posting slightly faster top-line growth, lags in profitability and faces a much higher debt burden relative to equity. GM’s capital allocation appears more disciplined, as evidenced by a lower payout ratio and a more conservative approach to leverage......
+
+## Comarative Analysis "Technical"
 
 ## Detailed Analysis: General Motors (GM)
 [Full company-specific writeup and 2yr Price Chart]
@@ -260,6 +262,10 @@ Both GM and Ford operate in the highly cyclical auto manufacturing sector, but G
 
 ### Justifications
 [Reasoning for any decisions, speculations, or inferences]
+Dividend sustainability (speculative): Ford’s high payout ratio flagged as a potential risk to future dividend stability, given sector cyclicality.
+Chart pattern context (inferred): Visual overlays and technical series suggest GM is emerging from consolidation, while Ford remains range-bound.
+Macro/sector risk (speculative): Both firms face cyclical and regulatory headwinds, but Ford’s higher leverage amplifies these risks.
+...
 ```markdown
 ---
 
