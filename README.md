@@ -32,12 +32,28 @@ This system demonstrates modern quant engineering multi-agent collaboration and 
 
 ```mermaid
 flowchart TD
-    PDF1[Company A PDF] -- Extract --> EA[Extraction Agent]
-    PDF2[Company B PDF] -- Extract --> EA
-    EA -- Validated Data (Pydantic) --> CA[CompanyAnalysis Agent]
-    CA -- Price Data --> TA[ChartAnalysis Agent]
-    TA -- Charts, Stats --> CA
-    TA + CA --> CCA[ComparitiveAnalysis Agent]
+    %% ---------- INPUT FILES ----------
+    subgraph Input
+        PDF1[Company&nbsp;A&nbsp;PDF]
+        PDF2[Company&nbsp;B&nbsp;PDF]
+    end
+
+    %% ---------- EXTRACTION ----------
+    PDF1 -- "Extract" --> EA[Extraction&nbsp;Agent]
+    PDF2 -- "Extract" --> EA
+
+    %% ---------- DATA GATHERING ----------
+    EA -- "Structured&nbsp;Data" --> DGA[Data&nbsp;Gathering&nbsp;Agent]
+
+    %% ---------- ANALYSIS LAYERS ----------
+    DGA -- "Fundamental&nbsp;Data" --> CA[Company&nbsp;Analysis&nbsp;Agent]
+    DGA -- "Market/Price&nbsp;Data" --> TA[Technical&nbsp;Analysis&nbsp;Agent]
+
+    %% ---------- COMPARISON & REPORT ----------
+    CA -- "Company&nbsp;Insights" --> CCA[Comparison&nbsp;Analysis&nbsp;Agent]
+    TA -- "Charts&nbsp;&amp;&nbsp;Stats" --> CCA
+    CCA -- "Markdown&nbsp;Report" --> REPORT[Final&nbsp;.md&nbsp;File]
+
 ```
 
 ## 🌟 Key Features
